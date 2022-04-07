@@ -16,5 +16,6 @@ struct recordIn: View {
 struct recordIn_Previews: PreviewProvider {
     static var previews: some View {
         recordIn()
+.previewInterfaceOrientation(.portraitUpsideDown)
     }
 }
